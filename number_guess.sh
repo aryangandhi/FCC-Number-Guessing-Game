@@ -31,7 +31,6 @@ NUM_GUESSES=1
 
 while [[ $GUESS != $NUMBER ]]
 do
-  echo "Number of guesses '$NUM_GUESSES'"
   ((NUM_GUESSES++))
 
   if [[ $GUESS =~ ^-?[0-9]+$ ]]
